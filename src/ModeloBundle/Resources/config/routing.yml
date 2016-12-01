@@ -1,0 +1,13 @@
+login:
+    path: /login
+    defaults: { _controller: ModeloBundle:User:login }
+    
+login_check:
+    path: /login_check
+    
+logout:
+    path: /logout
+
+modelo_homepage:
+    path:     /
+    defaults: { _controller: ModeloBundle:Default:index }
